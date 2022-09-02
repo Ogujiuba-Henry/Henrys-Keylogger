@@ -14,5 +14,3 @@ def encrypt():
     with open("log.txt", "wb") as thetest1:
         thetest1.write(contents_encrypted)
 
-encrypt()
-
