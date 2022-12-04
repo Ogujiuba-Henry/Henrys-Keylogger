@@ -1,0 +1,74 @@
+[2022-12-04T14:02:45.760043 1124 ] === CCACHE 4.6 STARTED =========================================
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) absolute_paths_in_stderr = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) base_dir = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (environment) cache_dir = C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) compiler = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) compiler_check = mtime
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) compiler_type = auto
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) compression = true
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) compression_level = 0
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) cpp_extension = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) debug = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) debug_dir = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) depend_mode = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) direct_mode = true
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) disable = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) extra_files_to_hash = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) file_clone = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) hard_link = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) hash_dir = true
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) ignore_headers_in_manifest = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) ignore_options = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) inode_cache = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) keep_comments_cpp = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) limit_multiple = 0.8
+[2022-12-04T14:02:45.760043 1124 ] Config: (environment) log_file = C:\Users\Henry\KEYLOG~1\main.onefile-build\ccache-4676.txt
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) max_files = 0
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) max_size = 5.0G
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) namespace = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) path = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) pch_external_checksum = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) prefix_command = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) prefix_command_cpp = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) read_only = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) read_only_direct = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) recache = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) reshare = false
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) run_second_cpp = true
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) secondary_storage = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) stats = true
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) stats_log = 
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) temporary_dir = C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2022-12-04T14:02:45.760043 1124 ] Config: (default) umask = 
+[2022-12-04T14:02:45.760043 1124 ] Command line: C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\msys64\mingw64\bin\gcc.exe -o static_src\OnefileBootstrap.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_ONEFILE_MODE -I. -IC:\Users\Henry\ANACON~1\lib\SITE-P~1\nuitka\build\include -IC:\Users\Henry\ANACON~1\lib\SITE-P~1\nuitka\build\static_src -IC:\Users\Henry\ANACON~1\lib\SITE-P~1\nuitka\build\inline_copy\zstd static_src\OnefileBootstrap.c
+[2022-12-04T14:02:45.802562 1124 ] Hostname: DESKTOP-JMH3PN8
+[2022-12-04T14:02:45.802562 1124 ] Working directory: C:/Users/Henry/KEYLOG~1/main.onefile-build
+[2022-12-04T14:02:45.802562 1124 ] Compiler type: gcc
+[2022-12-04T14:02:45.802562 1124 ] Source file: static_src\OnefileBootstrap.c
+[2022-12-04T14:02:45.802562 1124 ] Object file: static_src\OnefileBootstrap.o
+[2022-12-04T14:02:45.802562 1124 ] Trying direct lookup
+[2022-12-04T14:02:45.802562 1124 ] No 9990c5vhtqcomgqscbr7vn2q31vun9rr0 in primary storage
+[2022-12-04T14:02:45.802562 1124 ] Running preprocessor
+[2022-12-04T14:02:50.855001 1124 ] Got result key from preprocessor
+[2022-12-04T14:02:50.855001 1124 ] No 51f11avk13vbt35e49p7gabai19omea2i in primary storage
+[2022-12-04T14:02:50.855001 1124 ] Running real compiler
+[2022-12-04T14:02:59.776404 1124 ] Using default compression level 1
+[2022-12-04T14:02:59.776404 1124 ] Storing embedded entry #0 .o (531919 bytes) from static_src\OnefileBootstrap.o
+[2022-12-04T14:02:59.807669 1124 ] Stored 51f11avk13vbt35e49p7gabai19omea2i in primary storage (C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/1/f11avk13vbt35e49p7gabai19omea2iR)
+[2022-12-04T14:02:59.807669 1124 ] Adding result key to C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/9/90c5vhtqcomgqscbr7vn2q31vun9rr0M
+[2022-12-04T14:02:59.876192 1124 ] Using default compression level 1
+[2022-12-04T14:02:59.938891 1124 ] Stored 9990c5vhtqcomgqscbr7vn2q31vun9rr0 in primary storage (C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/9/90c5vhtqcomgqscbr7vn2q31vun9rr0M)
+[2022-12-04T14:02:59.938891 1124 ] Result: cache_miss
+[2022-12-04T14:02:59.938891 1124 ] Result: direct_cache_miss
+[2022-12-04T14:02:59.938891 1124 ] Result: preprocessed_cache_miss
+[2022-12-04T14:02:59.938891 1124 ] Result: primary_storage_miss
+[2022-12-04T14:02:59.938891 1124 ] Acquired lock C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-12-04T14:02:59.970146 1124 ] Releasing lock C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-12-04T14:02:59.971659 1124 ] Acquired lock C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-12-04T14:02:59.992305 1124 ] Releasing lock C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-12-04T14:02:59.992305 1124 ] Unlink C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stderr.JqDETp
+[2022-12-04T14:02:59.992305 1124 ] Unlink C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.stdout.kFTg5U
+[2022-12-04T14:02:59.992305 1124 ] Unlink C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.zFduKA
+[2022-12-04T14:02:59.992305 1124 ] Unlink C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.AyV7ed.i
+[2022-12-04T14:02:59.992305 1124 ] Unlink C:\Users\Henry\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.AyV7ed

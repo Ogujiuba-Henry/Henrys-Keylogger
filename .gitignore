@@ -1,6 +1,2 @@
 __pycache__
 keylogvenv
-credentials.json
-main.build
-main.dist
-main.onefile-build
