@@ -49,7 +49,7 @@ def send_mail():
 
         s.starttls()     #start tls for security
 
-        s.login(fromaddr,'Audirs4#')     #Authentication
+        s.login(fromaddr,password)     #Authentication
 
         text = msg.as_string()         #converts the multipart message into a string
 
